@@ -1,0 +1,45 @@
+/* Add some spacing and background color to the entire list */
+.todo-list {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Style the list items */
+.list-group-item {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Style the title and description */
+.list-group-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.list-group-item p {
+  font-size: 16px;
+}
+
+/* Style the completed tasks with a different background color */
+.list-group-item.completed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+/* Style the checkbox and label */
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Center the checkbox and label vertically */
+.form-check-label {
+  vertical-align: middle;
+}
